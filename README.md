@@ -15,7 +15,7 @@ This project describes segmentation approaches tailored to the requirements of l
 We trained Reservoir Computing models, standard U-Net and convolutional long short-term memory (LSTM) models (https://github.com/arbellea/LSTM-UNet). The scripts are writen in Python 3 and makes use of tensorflow 2.0.0a0., fastai, and echoes (https://github.com/fabridamicelli/echoes). Please see the requierments.txt files for all prerequisits in different practices.
 
 # Data
-The training scripts was tailored for domestic live-cell Ca2+ fluorescence microscopy data. Dataset corresponding to each task can be downloaded from  available from the folowing links:
+The training scripts was tailored for domestic live-cell Ca2+ fluorescence microscopy data. Dataset corresponding to each task can be downloaded from the folowing links:
 - Task 1: Green emission, Red emission, binary mask
 - Task 2: Green emission, Red emission, binary mask
 - Task 3: Green emission, ternary mask
