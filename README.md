@@ -35,7 +35,7 @@ If you would like to train models on your private data, please follow the follow
 In each case the training and inference scripts are Train.py and inference.py, respectively. On private data you may need to adjust reservoir hyperparameters via cross-validation before training. 
 
 ## Inference on trained models
-In each case, the trained models are available in the following libks:
+In each case, the trained models are available in the following links:
 - Task 1: Green emission {RC, U_Net, UNet_LSTM}, Red emission {RC, U_Net, UNet_LSTM}
 - Task 2: Green emission {RC, U_Net, UNet_LSTM}, Red emission {RC, U_Net, UNet_LSTM}
 - Task 3: RC, UNet_LSTM
