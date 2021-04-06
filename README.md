@@ -12,7 +12,7 @@ This project describes segmentation approaches tailored to the requirements of l
 - Task 2: T-cell and bead segmentation and differentiation exploiting two-channel information
 - Task 3: T-cell/bead segmentation and differentiation in single-channel recordings.
 
-We trained Reservoir Computing models, standard U-Net and convolutional long short-term memory (LSTM) models (https://github.com/arbellea/LSTM-UNet). The scripts are writen in Python 3 and makes use of tensorflow 2.0.0a0., fastai, and echoes (https://github.com/fabridamicelli/echoes). Please see the requierments.txt files for all prerequisits in different practices.
+We trained Reservoir Computing models, standard U-Net and convolutional long short-term memory (LSTM) models (https://github.com/arbellea/LSTM-UNet). The scripts are writen in Python 3 and makes use of tensorflow 2.0.0a0., fastai (https://www.fast.ai/), and echoes (https://github.com/fabridamicelli/echoes). Please see the requierments.txt files for all prerequisits in different practices.
 
 # Data
 The training scripts was tailored for domestic live-cell Ca2+ fluorescence microscopy data. Dataset corresponding to each task can be downloaded from the folowing links:
@@ -32,7 +32,7 @@ If you would like to train models on your private data, please follow the follow
 
 # Train and Inference
 ## Train and inference on private data
-In each case the training and inference scripta are Train.py and inference.py, respectively.
+In each case the training and inference scripts are Train.py and inference.py, respectively. On private data you may need to adjust reservoir hyperparameters via cross-validation before training. 
 
 ## Inference on trained models
 In each case, the trained models are available in the following libks:
