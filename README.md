@@ -1,4 +1,4 @@
-# Jurkat_Cell_Segmentation
+# Jurkat_cell_segmentation
 
 The scripts in this repository are suplamentary to our paper "Spatio-temporal feature learning with reservoir computing for T-cell segmentation in live-cell 
 Ca<sup>2+</sup> fluorescence microscopy" published in Scientific Reports. If this code is used please cite the paper:
