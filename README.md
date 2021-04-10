@@ -18,7 +18,7 @@ We trained Reservoir Computing models, standard U-Net and convolutional long sho
 The training scripts was tailored for domestic live-cell Ca2+ fluorescence microscopy data. Dataset corresponding to each task are available in corresponding directories.
 
 ## Private Data:
-If you would like to train models on your private data, please follow the following formats for your data:
+If you would like to train models on your private data, please follow the following formats to prepare your data:
 --root_dir : Root directory of each sequence, example: '~/CaImaging/Task1/Green/Training/
 
 --seq : Sequence number (two digit) , example: '01' or '02'
@@ -32,10 +32,8 @@ If you would like to train models on your private data, please follow the follow
 In each case the training and inference scripts are Train.py and inference.py, respectively. On private data you may need to adjust reservoir hyperparameters via cross-validation before training. 
 
 ## Inference on trained models
-In each case, the trained RC models are available in the corresponding directories. You only need to adjust --root_dir and run the following command:
-$ python Inference.py
+In each case, the trained RC models are available in corresponding directories. You only need to adjust --root_dir and run 
+
+`python Inference.py`.
+
 A "Prediction" directory with predicted masks will be created in the same directory.
-
-
-
-
