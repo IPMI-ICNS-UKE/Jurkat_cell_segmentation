@@ -1,0 +1,9 @@
+﻿Numpy>=1.13.3
+matplotlib>=3.0.3
+tifffile>=2019.3.18
+opencv_python>=4.1.0.25
+scipy>=0.19.1
+scikit-image>= 0.17.2
+numba>=0.49.1 
+echoes>=0.0.3.3
+pystackreg>= 0.2.5 
