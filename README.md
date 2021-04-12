@@ -37,3 +37,10 @@ In each case, the trained RC models are available in corresponding directories. 
 `python Inference.py`.
 
 A "Prediction" directory with predicted masks will be created in the same directory.
+
+# Baseline models
+We compared the RC performance with a standard U-Net and a convolutional long short-term memory (LSTM) model. The trained models are available in the following links and corresponding scripts would be shared upon private request (f.hadaeghi@uke.de):
+- Task 1: [U-Net](https://drive.google.com/file/d/19KGWGYXnjp16-5cD2dARP5PMB3-MabPR/view?usp=sharing), [U-Net-LSTM](https://drive.google.com/file/d/16mfVGM3aDX5bUs__ycffjJItxqETPS6E/view?usp=sharing)
+- Task 2: [U-Net](https://drive.google.com/file/d/1KJQ3YXf_ylRq_jbaSqp9yz_5K7FAguCa/view?usp=sharing), [U-Net-LSTM](https://drive.google.com/file/d/1sM_gUaJn3zjfnjpF2dvaFFHUz5BdmsG3/view?usp=sharing)
+- Task 3: [U-Net-LSTM](https://drive.google.com/file/d/1YbljjUloOBDkR85MdxjfiIVy8K8hGbgI/view?usp=sharing)
+
