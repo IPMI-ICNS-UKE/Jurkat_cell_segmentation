@@ -106,7 +106,7 @@ def stack_post_process(prdct, strel, er_strel, kernel, thr):
 
 
 # set the paths
-root_dir = '/home/fatemeh/Documents/Projects/CaImaging/GitHub_Repo/Task1/'
+
 # root_dir = '.~/Task1/'  # Green emission
 # root_dir = '.~/Task1/'  # Red emission
 
